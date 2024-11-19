@@ -1,0 +1,151 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+html {
+    scroll-behavior: smooth;
+}
+header{
+    background-color: #3BB7A8;
+    color: white;
+    margin: 0;
+    
+}
+.home{
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    background-color: #3BB7A8;
+    color: white;
+    width: 100%;
+}
+.header-principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.menu li{
+    display: inline;
+    margin-left: 20px;
+}
+.menu a{
+    color: white;
+    text-decoration: none;
+}
+.img-g{
+    border-radius: 50%;
+    height: auto;  /* Ajustamos la altura automáticamente */
+    width: 15%;  /* Hacemos que la imagen no sea tan grande */
+}
+.boton1,.boton2{
+    margin: 0 40px;
+}
+.boton1{
+    background-color:#2B82D3 ;
+    color: white;
+}
+.boton2{
+    background-color: #3BB7A8;
+    color: white;
+}
+.hero-text{
+    max-width: 30%;
+}
+.container_padre{
+    display: flex;
+    margin-right: 15px;
+    width: 100%; 
+}
+.img_proy{
+    height: 250px;
+    width: 100%;
+}
+.ver-mas{
+    background-color: #2B82D3;
+    color: white
+}
+.bt1{
+    color: white;
+    background-color: #2B82D3;
+    border-radius: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.bt2{
+    color: white;
+    background-color:green;
+    border-radius: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 250px;
+    
+}
+.class_proy h2{
+    text-align: center;
+
+}
+.class_proy p{
+    text-align: center;
+}
+.container_hijo{
+    margin: 23px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    width: auto;
+    width: 30%;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.2);  /* Efecto de sombra */
+}
+.botones{
+    display: flex;
+    justify-content: space-between;
+}
+
+.container_hijo h3{
+    text-align: center;
+}
+.footer{
+    background-color: #3BB7A8;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    
+    
+}
+.enviar{
+    background-color: green;
+    width: 100px;
+}
+.texto-contacto{
+    font-size: 12px;
+}
+.texto-contacto2{
+    font-size: 12px;
+}
+.correo_e{
+    margin-top: 20px;
+    width: 200px;
+}
+.seccion2{
+ margin-left: 350px;
+ 
+}
+header, footer {
+    width: 100%;
+    
+}
+.redes_sociales {
+    display: flex;         
+    gap: 20px;   
+            
+    
+}
+.redes{
+    width: 40px;
+    height: auto;
+    gap: 10px;
+}
